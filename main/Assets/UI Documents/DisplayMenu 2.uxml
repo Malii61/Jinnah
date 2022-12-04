@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style.uss?fileID=7433441132597879392&amp;guid=d6787dc16dc4f174f8f48dec44ef55c7&amp;type=3#Style" />
+    <ui:IMGUIContainer name="MenuContainer" style="width: 1920px; height: 1080px; position: relative; background-color: rgba(17, 17, 17, 0.61); display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;">
+        <ui:Button text="Devam Et" display-tooltip-when-elided="true" name="start_button" class="button_style" style="top: 23%; left: 30%;" />
+        <ui:Button text="Ayarlar" display-tooltip-when-elided="true" name="options_button" class="button_style" style="top: 30%; left: 30%;" />
+        <ui:Button text="Menüye Dön" display-tooltip-when-elided="true" name="exit_button" class="button_style" style="top: 37%; display: flex; left: 30%;" />
+        <ui:Label text="Etkileşimler : E&#10;Zıplama : Space&#10;Normal fener : Sol Tık&#10;UV el feneri : Sağ Tık&#10;  " display-tooltip-when-elided="true" style="height: 499px; width: 648px; left: 16px; top: 370px; position: absolute; font-size: 48px; -unity-text-align: upper-left; color: rgb(164, 164, 164); -unity-font: none;" />
+    </ui:IMGUIContainer>
+    <ui:IMGUIContainer name="OptionsContainer" style="background-color: rgba(10, 10, 10, 0.61); flex-direction: column-reverse; height: 1080px; display: none;">
+        <ui:Button text="Geri Dön" display-tooltip-when-elided="true" name="back_button" class="button_style" style="top: auto; left: 37%; bottom: 15%; right: auto;" />
+        <ui:Label text="Mouse Hassasiyeti:" display-tooltip-when-elided="true" name="SensitivityText" style="left: 35%; bottom: 60%; width: 350px; height: 50px; color: rgb(142, 142, 142); font-size: 35px;" />
+        <ui:Slider picking-mode="Ignore" value="50" high-value="100" name="SensitivitySlider" style="left: 35%; top: 23%; right: 580px; bottom: 47%; flex-direction: row-reverse; width: 500px; height: 50px;" />
+        <ui:Slider picking-mode="Ignore" value="-5" high-value="15" name="VolumeSlider" low-value="-30" style="left: 35%; top: 23%; right: 580px; bottom: 22%; flex-direction: row-reverse; width: 500px; height: 50px;" />
+        <ui:Label text="Ses Seviyesi:" display-tooltip-when-elided="true" name="VolumeText" style="left: 35%; bottom: 25%; width: 350px; height: 50px; color: rgb(142, 142, 142); font-size: 35px;" />
+    </ui:IMGUIContainer>
+</ui:UXML>

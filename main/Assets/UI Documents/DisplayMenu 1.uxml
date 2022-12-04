@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style.uss?fileID=7433441132597879392&amp;guid=d6787dc16dc4f174f8f48dec44ef55c7&amp;type=3#Style" />
+    <ui:Button text="Tekrar Oyna" display-tooltip-when-elided="true" name="start_button" class="button_style" style="top: 35%; left: 38%;" />
+    <ui:Button text="Çıkış" display-tooltip-when-elided="true" name="exit_button" class="button_style" style="top: 43%; display: flex;" />
+    <ui:Label text="ÖLDÜN" display-tooltip-when-elided="true" style="height: 131px; width: 540px; left: 34%; top: -20%; position: relative; font-size: 80px; -unity-text-align: upper-center; color: rgb(156, 0, 10); -unity-font: none;" />
+</ui:UXML>

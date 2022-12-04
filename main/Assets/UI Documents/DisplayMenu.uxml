@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style.uss?fileID=7433441132597879392&amp;guid=d6787dc16dc4f174f8f48dec44ef55c7&amp;type=3#Style" />
+    <ui:Button text="Oyna" display-tooltip-when-elided="true" name="start_button" class="button_style" style="top: 34%; display: flex; position: relative; left: 36%; text-shadow: 1px 1px 1px rgb(101, 0, 5); color: rgba(173, 0, 0, 255);" />
+    <ui:Button text="Çıkış" display-tooltip-when-elided="true" name="exit_button" class="button_style" style="top: 43%; display: flex; text-shadow: 1px 1px 1px rgb(99, 0, 0); left: 36%; color: rgba(173, 0, 0, 255);" />
+    <ui:Label text="JINNAH" display-tooltip-when-elided="true" style="height: 131px; width: 540px; left: 32%; top: -22%; position: relative; font-size: 80px; -unity-text-align: upper-center; color: rgb(115, 0, 5); -unity-font: none; -unity-text-outline-color: rgb(0, 0, 0); text-shadow: 3px 3px 2px rgb(96, 0, 0); letter-spacing: 8px; word-spacing: 3px;" />
+</ui:UXML>
